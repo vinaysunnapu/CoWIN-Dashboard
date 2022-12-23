@@ -1,0 +1,9 @@
+.coverage-container {
+  margin-top: 10px;
+}
+.coverage-heading {
+  color: white;
+  font-weight: bold;
+  font-family: roboto;
+  font-size: 18px;
+}

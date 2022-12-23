@@ -1,0 +1,64 @@
+.main-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cowin-dashboard-container {
+  background-color: #161625;
+  width: 1200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 10px;
+  overflow: scroll;
+}
+.cowin-heading {
+  color: #2cc6c6;
+  font-size: 20px;
+  font-family: roboto;
+}
+.logo-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.logo-container {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+.vaccination-heading {
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+}
+.failure-view-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  width: 600px;
+  height: 500px;
+}
+.failure-heading {
+  color: white;
+  font-family: bree serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.loading-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vaccine-charts-container {
+  width: 1000px;
+}
