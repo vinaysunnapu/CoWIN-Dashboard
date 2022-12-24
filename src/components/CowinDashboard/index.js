@@ -33,7 +33,7 @@ class CowinDashboard extends Component {
       method: 'GET',
     }
 
-    const response = await fetch(url, options)
+    const response = await fetch(url)
 
     if (response.ok === true) {
       const data = await response.json()
